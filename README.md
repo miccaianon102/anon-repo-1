@@ -1,6 +1,6 @@
 # Femur Landmark Detection
 
-Code for the MICCAI 2026 anonymous submission on **anatomical landmark detection on femur point clouds** for Total Knee Arthroplasty (TKA) planning.
+Code for Paper ID 6540: Surface-Based Hybrid Graph Convolution Framework for Automated Distal Femoral Landmark Localisation in Total Knee Arthroplasty".
 Download the Precomputed .pt for train and val as well as the Trained Weights from:
 https://drive.google.com/file/d/19HFsuyFDtXVHr4QK9HRtf7SqiJz45SLr/view?usp=sharing
 
