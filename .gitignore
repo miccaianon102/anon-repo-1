@@ -1,0 +1,21 @@
+cat <<EOF > .gitignore
+# Data & weights
+data/
+test/
+*.pth
+*.pt
+*.ply
+
+# Python
+__pycache__/
+*.pyc
+
+# Logs
+*.log
+
+# Jupyter
+.ipynb_checkpoints/
+
+# OS
+.DS_Store
+EOF

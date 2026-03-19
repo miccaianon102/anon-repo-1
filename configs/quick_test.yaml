@@ -1,0 +1,47 @@
+
+
+data:
+  common_root: "./data"
+  precomputed_subdir: ""
+  train_file: "train_precomputed_euclidean_pointnorm_12000_finalbatch_6_autosigma.pt"
+  val_file:   "val_precomputed_euclidean_pointnorm_12000_finalbatch_6_autosigma.pt"
+  num_points: 512          
+  num_workers: 4
+
+model:
+  name: "HybridAdaptConvNet_Deeper"
+  k: 8                     
+  dropout: 0.2
+  hidden: [32, 64, 64, 128, 128, 256]
+  num_heads: 4           
+  patch_size: 16          
+  topk: 4                  
+  use_attention: true
+  landmark_num: 11
+
+training:
+  epochs: 20
+  batch_size: 2
+  test_batch_size: 2
+  accumulate_steps: 2     
+  lr: 1.0e-4
+  weight_decay: 1.0e-4
+  warmup_epochs: 2
+  min_lr: 1.0e-6
+  grad_clip: 1.0
+  mixed_precision: true
+  checkpoint_dir: "./weights/quick_test"
+  save_every: 5
+
+loss:
+  enable_star: true
+  star_start_epoch: 3      
+  star_end_epoch: 8
+  temperature: 5.0
+  star_inner_dist: "smooth_l1"
+  star_lambda_weight: 0.1
+  star_k_neighbors: 32    
+  init_sigma: 0.075
+  use_mtl_weighting: true
+  manual_w_awing: 1.0
+  manual_w_star: 0.5

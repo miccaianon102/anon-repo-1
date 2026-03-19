@@ -1,0 +1,297 @@
+{
+    "@schema": "https://raw.githubusercontent.com/slicer/slicer/master/Modules/Loadable/Markups/Resources/Schema/markups-schema-v1.0.0.json#",
+    "markups": [
+        {
+            "type": "Fiducial",
+            "coordinateSystem": "LPS",
+            "controlPoints": [
+                {
+                    "id": "1",
+                    "label": "FME",
+                    "description": "Predicted by HybridAdaptConv",
+                    "associatedNodeID": "",
+                    "position": [
+                        41.32651901245117,
+                        -0.4172742962837219,
+                        -11.015829086303711
+                    ],
+                    "orientation": [
+                        -1.0,
+                        -0.0,
+                        -0.0,
+                        -0.0,
+                        -1.0,
+                        -0.0,
+                        0.0,
+                        0.0,
+                        1.0
+                    ],
+                    "selected": true,
+                    "locked": false,
+                    "visibility": true,
+                    "positionStatus": "defined"
+                },
+                {
+                    "id": "2",
+                    "label": "FLE",
+                    "description": "Predicted by HybridAdaptConv",
+                    "associatedNodeID": "",
+                    "position": [
+                        -41.53788375854492,
+                        6.84599494934082,
+                        -4.5618696212768555
+                    ],
+                    "orientation": [
+                        -1.0,
+                        -0.0,
+                        -0.0,
+                        -0.0,
+                        -1.0,
+                        -0.0,
+                        0.0,
+                        0.0,
+                        1.0
+                    ],
+                    "selected": true,
+                    "locked": false,
+                    "visibility": true,
+                    "positionStatus": "defined"
+                },
+                {
+                    "id": "3",
+                    "label": "FMCP",
+                    "description": "Predicted by HybridAdaptConv",
+                    "associatedNodeID": "",
+                    "position": [
+                        27.716882705688477,
+                        32.4075813293457,
+                        -11.632781028747559
+                    ],
+                    "orientation": [
+                        -1.0,
+                        -0.0,
+                        -0.0,
+                        -0.0,
+                        -1.0,
+                        -0.0,
+                        0.0,
+                        0.0,
+                        1.0
+                    ],
+                    "selected": true,
+                    "locked": false,
+                    "visibility": true,
+                    "positionStatus": "defined"
+                },
+                {
+                    "id": "4",
+                    "label": "FLCP",
+                    "description": "Predicted by HybridAdaptConv",
+                    "associatedNodeID": "",
+                    "position": [
+                        -25.7618465423584,
+                        31.29981231689453,
+                        -9.023128509521484
+                    ],
+                    "orientation": [
+                        -1.0,
+                        -0.0,
+                        -0.0,
+                        -0.0,
+                        -1.0,
+                        -0.0,
+                        0.0,
+                        0.0,
+                        1.0
+                    ],
+                    "selected": true,
+                    "locked": false,
+                    "visibility": true,
+                    "positionStatus": "defined"
+                },
+                {
+                    "id": "5",
+                    "label": "FMCD",
+                    "description": "Predicted by HybridAdaptConv",
+                    "associatedNodeID": "",
+                    "position": [
+                        27.943618774414062,
+                        5.471307277679443,
+                        -32.957115173339844
+                    ],
+                    "orientation": [
+                        -1.0,
+                        -0.0,
+                        -0.0,
+                        -0.0,
+                        -1.0,
+                        -0.0,
+                        0.0,
+                        0.0,
+                        1.0
+                    ],
+                    "selected": true,
+                    "locked": false,
+                    "visibility": true,
+                    "positionStatus": "defined"
+                },
+                {
+                    "id": "6",
+                    "label": "FLCD",
+                    "description": "Predicted by HybridAdaptConv",
+                    "associatedNodeID": "",
+                    "position": [
+                        -29.607990264892578,
+                        8.471430778503418,
+                        -29.374467849731445
+                    ],
+                    "orientation": [
+                        -1.0,
+                        -0.0,
+                        -0.0,
+                        -0.0,
+                        -1.0,
+                        -0.0,
+                        0.0,
+                        0.0,
+                        1.0
+                    ],
+                    "selected": true,
+                    "locked": false,
+                    "visibility": true,
+                    "positionStatus": "defined"
+                },
+                {
+                    "id": "7",
+                    "label": "FMTA",
+                    "description": "Predicted by HybridAdaptConv",
+                    "associatedNodeID": "",
+                    "position": [
+                        13.947826385498047,
+                        -29.688880920410156,
+                        -5.957898139953613
+                    ],
+                    "orientation": [
+                        -1.0,
+                        -0.0,
+                        -0.0,
+                        -0.0,
+                        -1.0,
+                        -0.0,
+                        0.0,
+                        0.0,
+                        1.0
+                    ],
+                    "selected": true,
+                    "locked": false,
+                    "visibility": true,
+                    "positionStatus": "defined"
+                },
+                {
+                    "id": "8",
+                    "label": "FLTA",
+                    "description": "Predicted by HybridAdaptConv",
+                    "associatedNodeID": "",
+                    "position": [
+                        -24.258934020996094,
+                        -31.75737953186035,
+                        2.5087692737579346
+                    ],
+                    "orientation": [
+                        -1.0,
+                        -0.0,
+                        -0.0,
+                        -0.0,
+                        -1.0,
+                        -0.0,
+                        0.0,
+                        0.0,
+                        1.0
+                    ],
+                    "selected": true,
+                    "locked": false,
+                    "visibility": true,
+                    "positionStatus": "defined"
+                },
+                {
+                    "id": "9",
+                    "label": "FMCPP",
+                    "description": "Predicted by HybridAdaptConv",
+                    "associatedNodeID": "",
+                    "position": [
+                        27.381113052368164,
+                        22.345272064208984,
+                        4.81093692779541
+                    ],
+                    "orientation": [
+                        -1.0,
+                        -0.0,
+                        -0.0,
+                        -0.0,
+                        -1.0,
+                        -0.0,
+                        0.0,
+                        0.0,
+                        1.0
+                    ],
+                    "selected": true,
+                    "locked": false,
+                    "visibility": true,
+                    "positionStatus": "defined"
+                },
+                {
+                    "id": "10",
+                    "label": "FLCPP",
+                    "description": "Predicted by HybridAdaptConv",
+                    "associatedNodeID": "",
+                    "position": [
+                        -21.011079788208008,
+                        21.945878982543945,
+                        6.88560676574707
+                    ],
+                    "orientation": [
+                        -1.0,
+                        -0.0,
+                        -0.0,
+                        -0.0,
+                        -1.0,
+                        -0.0,
+                        0.0,
+                        0.0,
+                        1.0
+                    ],
+                    "selected": true,
+                    "locked": false,
+                    "visibility": true,
+                    "positionStatus": "defined"
+                },
+                {
+                    "id": "11",
+                    "label": "Notch",
+                    "description": "Predicted by HybridAdaptConv",
+                    "associatedNodeID": "",
+                    "position": [
+                        -0.2582252025604248,
+                        -1.8055371046066284,
+                        -22.123815536499023
+                    ],
+                    "orientation": [
+                        -1.0,
+                        -0.0,
+                        -0.0,
+                        -0.0,
+                        -1.0,
+                        -0.0,
+                        0.0,
+                        0.0,
+                        1.0
+                    ],
+                    "selected": true,
+                    "locked": false,
+                    "visibility": true,
+                    "positionStatus": "defined"
+                }
+            ]
+        }
+    ]
+}

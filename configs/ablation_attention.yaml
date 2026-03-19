@@ -1,0 +1,49 @@
+
+
+data:
+  common_root: "./data"
+  precomputed_subdir: "precomputed"
+  train_file: "train_precomputed_euclidean_12000.pt"
+  val_file:   "val_precomputed_euclidean_12000.pt"
+  num_points: 12000
+  num_workers: 8
+
+# ── attention_type options: brpa | ptv3 | ptv2 | msa ─────────
+model:
+  name: "HybridAdaptConvNet_Ablation"
+  attention_type: "msa"
+  k: 60
+  dropout: 0.2
+  hidden: [32, 64, 64, 128, 128, 256]
+  num_heads: 8
+  patch_size: 64
+  topk: 8
+  use_attention: true
+  landmark_num: 11
+
+training:
+  epochs: 150
+  batch_size: 4
+  test_batch_size: 4
+  accumulate_steps: 2
+  lr: 1.0e-4
+  weight_decay: 1.0e-4
+  warmup_epochs: 5
+  min_lr: 1.0e-6
+  grad_clip: 1.0
+  mixed_precision: true
+  checkpoint_dir: "./weights/ablation_attention"
+  save_every: 5
+
+loss:
+  enable_star: true
+  star_start_epoch: 10
+  star_end_epoch: 20
+  temperature: 5.0
+  star_inner_dist: "smooth_l1"
+  star_lambda_weight: 0.1
+  star_k_neighbors: 64
+  init_sigma: 0.075
+  use_mtl_weighting: true
+  manual_w_awing: 1.0
+  manual_w_star: 0.5
