@@ -4,6 +4,8 @@ Code for Paper ID 6540: Surface-Based Hybrid Graph Convolution Framework for Aut
 Download the Precomputed .pt for train and val as well as the Trained Weights from:
 https://drive.google.com/file/d/19HFsuyFDtXVHr4QK9HRtf7SqiJz45SLr/view?usp=sharing
 
+NOTE: Full Dataset will be released upon acceptance. 
+
 Place the precomputed .pt files in \data and place the "weights" folder in the main directory.
 ---
 
