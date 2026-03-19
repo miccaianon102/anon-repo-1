@@ -2,7 +2,7 @@
 
 Code for the MICCAI 2026 anonymous submission on **anatomical landmark detection on femur point clouds** for Total Knee Arthroplasty (TKA) planning.
 Download the Precomputed .pt for train and val as well as the Trained Weights from:
-[https://drive.google.com/file/d/19HFsuyFDtXVHr4QK9HRtf7SqiJz45SLr/view?usp=sharing](url).
+[https://drive.google.com/file/d/19HFsuyFDtXVHr4QK9HRtf7SqiJz45SLr/view?usp=sharing](url)
 
 Place the precomputed .pt files in \data and place the \weights folder in the main directory.
 ---
