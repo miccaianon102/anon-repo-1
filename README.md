@@ -52,11 +52,15 @@ femur-landmark-detection/
 
 ## Installation
 
+In your local python environment (We use Python 3.12), you can run :
 ```bash
 pip install torch torchvision
 pip install open3d scipy networkx pyyaml tqdm pandas
 ```
-
+or use the requirements.txt file provided:
+```bash
+pip install -r requirements.txt
+```
 ---
 
 ## Data
