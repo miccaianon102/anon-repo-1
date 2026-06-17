@@ -2,9 +2,9 @@
 
 Code for Paper ID 6540: Surface-Based Hybrid Graph Convolution Framework for Automated Distal Femoral Landmark Localisation in Total Knee Arthroplasty".
 Download the Precomputed .pt for train and val as well as the Trained Weights from:
-https://drive.google.com/file/d/19HFsuyFDtXVHr4QK9HRtf7SqiJz45SLr/view?usp=sharing
+[https://drive.google.com/file/d/19HFsuyFDtXVHr4QK9HRtf7SqiJz45SLr/view?usp=sharing](url)
 
-NOTE: Full Dataset will be released upon acceptance. 
+NOTE: Full Dataset will be released upon acceptance. Dataset is available in: [10.5281/zenodo.20711175](url)
 
 Place the precomputed .pt files in \data and place the "weights" folder in the main directory.
 ---
