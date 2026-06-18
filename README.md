@@ -1,10 +1,15 @@
 # Femur Landmark Detection
 
 Code for the Paper: "SurfMark3D: Surface-Based Hybrid Graph Convolution Framework for Automated Distal Femoral Landmark Localisation in Total Knee Arthroplasty".
+
+![Overview](images/main-arch-diag.png)
+![Overview](images/hybrid-block.png)
+![Overview](images/BRPA-block.png)
 Download the Precomputed .pt for train and val as well as the Trained Weights from:
 [https://drive.google.com/file/d/19HFsuyFDtXVHr4QK9HRtf7SqiJz45SLr/view?usp=sharing](url)
 
 NOTE: Full Dataset will be released upon acceptance. Dataset is available in: [10.5281/zenodo.20711175](url)
+
 
 Place the precomputed .pt files in \data and place the "weights" folder in the main directory.
 ---
