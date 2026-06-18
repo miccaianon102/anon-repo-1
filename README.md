@@ -1,6 +1,6 @@
 # Femur Landmark Detection
 
-Code for Paper ID 6540: Surface-Based Hybrid Graph Convolution Framework for Automated Distal Femoral Landmark Localisation in Total Knee Arthroplasty".
+Code for the Paper: "SurfMark3D: Surface-Based Hybrid Graph Convolution Framework for Automated Distal Femoral Landmark Localisation in Total Knee Arthroplasty".
 Download the Precomputed .pt for train and val as well as the Trained Weights from:
 [https://drive.google.com/file/d/19HFsuyFDtXVHr4QK9HRtf7SqiJz45SLr/view?usp=sharing](url)
 
